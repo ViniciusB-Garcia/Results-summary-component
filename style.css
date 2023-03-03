@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    border-radius: 1.5625rem;
+    height: 28.4375rem;
+    width: 40.625rem;
+}
+
+.result {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 1.875rem;
+    width: 16.5625rem;
+    text-align: center;
+    border-radius: 1.5625rem;
+    color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    font-size: 1.25rem;
+    margin-top: .3125rem;
+    color: hsl(241, 100%, 89%);
+}
+
+.result-circle {
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    padding: .625rem;
+}
+
+.score {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 1.875rem;
+    margin-bottom: 0;
+}
+
+.of {
+    font-size: 1rem;
+    margin-top: 0;
+    color: hsl(241, 100%, 89%);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+
+.you-scored {
+    font-size: 1rem;
+    color: hsl(241, 100%, 89%);
+    padding: 1.5625rem;
+    margin-top: 0;
+}
+
+.summary {
+    padding: 1.875rem 2.5rem;
+    color: hsl(221deg, 100%, 96%);
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+h3 {
+    color: hsl(224, 30%, 27%);
+    font-weight: 500;
+    font-size: 1.375rem;
+    margin-top: 0;
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+    height: 1.25rem;
+    margin-bottom: .9375rem;
+    padding: .625rem;
+    border-radius: 0.5rem;
+}
+
+.memory {
+    background-color: hsla(39deg, 100%, 56%, 0.2);
+    color: hsl(39deg, 100%, 56%);
+    height: 1.25rem;
+    margin-bottom: .9375rem;
+    padding: .625rem;
+    border-radius: 0.5rem;
+}
+
+.verbal {
+    background-color: hsla(166deg, 100%, 37%, 0.2);
+    color: hsl(166deg, 100%, 37%);
+    height: 1.25rem;
+    margin-bottom: .9375rem;
+    padding: .625rem;
+    border-radius: 0.5rem;
+}
+.visual {
+    background-color: hsla(234deg, 85%, 45%, 0.2);
+    color: hsl(234deg, 85%, 45%);
+    height: 1.25rem;
+    margin-bottom: .9375rem;
+    padding: .625rem;
+    border-radius: 0.5rem;
+}
+
+.title {
+    align-self: center;
+}
+
+.total-score {
+    float: right;
+    color: black;
+}
+
+.box {
+    width: 15.625rem;
+}
+
+button {
+    background-color: hsl(224deg, 30%, 27%);
+    color: white;
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    border-style: none;
+    transition: all ease-in-out 300ms;
+}
+
+button:hover {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
+}
+
+footer { 
+    font-size: .6875rem; 
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+  footer a { 
+    color: hsl(228, 45%, 44%); 
+    font-size: .6875rem;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+    }
+}
